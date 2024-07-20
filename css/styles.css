@@ -491,6 +491,11 @@ max-width: 264px
 .social-footer-link:focus {
     background-color: #31d0aa;
 }
+
+
+.subscribe-container {
+margin-left: 80px;
+}
 .title-subscribe {
     margin-bottom: 16px; 
     font-weight: 500; 
