@@ -665,6 +665,14 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-checkbox {
     margin-bottom: 24px;
+
+}
+.visually-hidden {
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    width: 16px;
+    height: 16px;
+    padding-right: 8px;
 }
     
 .label-user-privacy {
@@ -674,6 +682,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color:  #8e8f99;
   
 }
+
 .icon-check-container {
    width: 16px;
    height: 16px;
@@ -686,11 +695,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    justify-content: center; 
    fill: transparent;
    margin-right: 8px;
-
-}
-.button-checkbox:hover {
-     background-color: #404BBF;
-    
 }
 
 input[type="checkbox"]:checked + label > span {
@@ -698,10 +702,10 @@ input[type="checkbox"]:checked + label > span {
     border: none;
     fill: #F4F4FD; 
 }
+
 .checkbox-link {
     color: #4d5ae5; 
     text-decoration: underline;
-
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -726,10 +730,5 @@ input[type="checkbox"]:checked + label > span {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     
 }
-.visually-hidden {
-    border-radius: 2px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    width: 16px;
-    height: 16px;
-    padding-right: 8px;
-}
+.button-checkbox:hover {
+     background-color: #404BBF;}
