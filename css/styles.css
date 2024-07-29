@@ -455,7 +455,7 @@ max-width: 264px
 
 
 .subscribe-container {
-margin-left: 80px;
+margin-left: auto;
 }
 .title-subscribe {
     margin-bottom: 16px; 
@@ -503,6 +503,11 @@ cursor: pointer;
 background-color: #4D5AE5;
 border: none; 
 border-radius: 4px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-subscribe:hover,
+.button-subscribe:focus {
+    background-color: #31d0aa;
 }
 .icon-subscribe {
     margin-left: 16px; 
@@ -538,7 +543,7 @@ border-radius: 4px;
        padding-bottom: 8px; 
       
    } 
-   .backdrop:not(.is open) .modal {
+   .backdrop:not(.is-open) .modal {
     transform: translate(-50%, -50%) scale(1.5);   }
    
    .modal {
@@ -725,7 +730,8 @@ input[type="checkbox"]:checked + label > span {
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5 ;
-    border: none; 
+    border: none;
+    border-radius: 4px; 
     margin: auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     
